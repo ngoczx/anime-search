@@ -1,0 +1,27 @@
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12.5px;
+}
+
+.main-head {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 200px;
+  border-radius: 7px;
+  height: 30px;
+}
+
+.main-content p {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-head {
+    margin-left: 0;
+  }
+}

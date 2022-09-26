@@ -1,0 +1,30 @@
+.topAnime a {
+  display: block;
+  background-color: #eee;
+  color: #888;
+  text-decoration: none;
+  padding: 40px 10px;
+  border-radius: 30px;
+  width: 250px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.topAnime {
+  margin-right: 20px;
+}
+
+.topAnime a:hover {
+  background-color: #313131;
+  color: #aaa;
+}
+
+.topAnime span {
+  position: absolute;
+  bottom: 50px;
+  font-size: 80px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
